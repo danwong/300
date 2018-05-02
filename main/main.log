@@ -1,0 +1,561 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 FEB 2018 14:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box26
+\UL@hyphenbox=\box27
+\UL@skip=\skip43
+\UL@hook=\toks14
+\UL@height=\dimen103
+\UL@pe=\count87
+\UL@pixel=\dimen104
+\ULC@box=\box28
+Package: ulem 2012/05/18
+\ULdepth=\dimen105
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen114
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count92
+)
+\csq@reset=\count93
+\csq@gtype=\count94
+\csq@glevel=\count95
+\csq@qlevel=\count96
+\csq@maxlvl=\count97
+\csq@tshold=\count98
+\csq@ltx@everypar=\toks17
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+Package csquotes Info: Redefining alias 'english' -> 'english/american'.
+)
+Package csquotes Info: Allocating character ".
+
+(./subsection.tex
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip44
+\aftertitleunit=\skip45
+\ttl@plus=\dimen115
+\ttl@minus=\dimen116
+\ttl@toksa=\toks18
+\titlewidth=\dimen117
+\titlewidthlast=\dimen118
+\titlewidthfirst=\dimen119
+)
+\c@subsubsubsection=\count99
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 668.4975pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=668.4975pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-55.06749pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package csquotes Info: Making character " active on input line 12.
+(./title.tex [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./mai
+n.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+ [1
+
+])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [2] (./sections/facts.tex
+
+LaTeX Warning: Citation `study' on page 1 undefined on input line 3.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no í in font cmr12!
+
+LaTeX Warning: Citation `study' on page 1 undefined on input line 5.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+LaTeX Warning: Citation `study' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation `forbes' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation `study' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation `atlantic' on page 1 undefined on input line 7.
+
+) (./sections/social.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+|[]\OT1/cmr/bx/n/17.28 SOCIAL IM-PLI-CA-
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+LaTeX Warning: Citation `terrain' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Citation `irb' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `atlantic' on page 1 undefined on input line 25.
+
+
+LaTeX Warning: Citation `etlinger' on page 1 undefined on input line 34.
+
+
+LaTeX Warning: Citation `guardian' on page 1 undefined on input line 39.
+
+)
+Underfull \hbox (badness 4967) in paragraph at lines 26--35
+[]\OT1/cmr/m/n/12 Another im-por-tant con-sid-er-a-tion is the
+ []
+
+[1
+
+] (./sections/arguments.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+|[]\OT1/cmr/bx/n/17.28 EXTERNAL AR-GU-
+ []
+
+
+LaTeX Warning: Citation `slate' on page 2 undefined on input line 3.
+
+
+LaTeX Warning: Citation `leeper' on page 2 undefined on input line 6.
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 6--7
+\OT1/cmr/m/n/12 Thomas Leeper ar-gues that the ex-per-i-ment
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 8--8
+|[]\OT1/cmr/bx/n/14.4 James Grim-mel-mann: As
+ []
+
+
+LaTeX Warning: Citation `cfrconsent' on page 2 undefined on input line 9.
+
+
+LaTeX Warning: Citation `laboratorium' on page 2 undefined on input line 9.
+
+
+LaTeX Warning: Citation `csrwaive' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `defense' on page 2 undefined on input line 12.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+LaTeX Warning: Citation `defensedefense' on page 2 undefined on input line 12.
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 14--14
+|[]\OT1/cmr/bx/n/14.4 Zeynep Tufekci: Face-book
+ []
+
+
+LaTeX Warning: Citation `engineering' on page 2 undefined on input line 15.
+
+
+LaTeX Warning: Citation `misjudgements' on page 2 undefined on input line 18.
+
+) (./sections/code.tex
+Underfull \hbox (badness 5862) in paragraph at lines 1--1
+\OT1/cmr/bx/n/17.28 EN-GI-NEER-ING CODE
+ []
+
+
+LaTeX Warning: Citation `code' on page 2 undefined on input line 2.
+
+[2]
+
+LaTeX Warning: Citation `define-news-feed' on page 3 undefined on input line 3.
+
+
+
+LaTeX Warning: Citation `study' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `code' on page 3 undefined on input line 6.
+
+) (./sections/analysis.tex (./sections/analysis/104.tex
+
+LaTeX Warning: Citation `code' on page 3 undefined on input line 2.
+
+
+LaTeX Warning: Citation `define-disclose' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `irb-informed-consent' on page 3 undefined on input lin
+e 6.
+
+
+LaTeX Warning: Citation `define-danger' on page 3 undefined on input line 8.
+
+
+LaTeX Warning: Citation `define-harm' on page 3 undefined on input line 8.
+
+
+LaTeX Warning: Citation `define-social-science' on page 3 undefined on input li
+ne 8.
+
+
+LaTeX Warning: Citation `study' on page 3 undefined on input line 8.
+
+
+LaTeX Warning: Citation `define-reasonable-belief' on page 3 undefined on input
+ line 10.
+
+
+LaTeX Warning: Citation `defense' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Citation `misjudgements' on page 3 undefined on input line 18.
+
+[3]
+
+LaTeX Warning: Citation `study' on page 4 undefined on input line 19.
+
+
+LaTeX Warning: Citation `atlantic' on page 4 undefined on input line 19.
+
+
+LaTeX Warning: Citation `study' on page 4 undefined on input line 20.
+
+
+LaTeX Warning: Citation `irb-informed-consent' on page 4 undefined on input lin
+e 24.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+LaTeX Warning: Citation `study' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation `laboratorium' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation `leeper' on page 4 undefined on input line 25.
+
+
+LaTeX Warning: Citation `forbes' on page 4 undefined on input line 25.
+
+
+LaTeX Warning: Citation `atlantic' on page 4 undefined on input line 25.
+
+
+LaTeX Warning: Citation `forbes' on page 4 undefined on input line 25.
+
+
+LaTeX Warning: Citation `leeper' on page 4 undefined on input line 25.
+
+
+LaTeX Warning: Citation `slate' on page 4 undefined on input line 25.
+
+[4]) (./sections/analysis/203.tex
+
+LaTeX Warning: Citation `code' on page 5 undefined on input line 2.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+LaTeX Warning: Citation `digital-assets' on page 5 undefined on input line 6.
+
+
+LaTeX Warning: Citation `define-ugs' on page 5 undefined on input line 6.
+
+
+LaTeX Warning: Citation `define-client' on page 5 undefined on input line 8.
+
+
+LaTeX Warning: Citation `define-service' on page 5 undefined on input line 8.
+
+
+LaTeX Warning: Citation `define-social-media' on page 5 undefined on input line
+ 8.
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 9--9
+|[]\OT1/cmr/bx/n/12 Proper Au-tho-riza-tion, Knowl-
+ []
+
+
+LaTeX Warning: Citation `define-authorize' on page 5 undefined on input line 10
+.
+
+
+LaTeX Warning: Citation `define-consent' on page 5 undefined on input line 10.
+
+
+LaTeX Warning: Citation `study' on page 5 undefined on input line 17.
+
+[5]
+
+LaTeX Warning: Citation `study' on page 6 undefined on input line 20.
+
+
+LaTeX Warning: Citation `study' on page 6 undefined on input line 20.
+
+
+LaTeX Warning: Citation `forbes' on page 6 undefined on input line 25.
+
+
+LaTeX Warning: Citation `forbes' on page 6 undefined on input line 26.
+
+
+LaTeX Warning: Citation `leeper' on page 6 undefined on input line 26.
+
+[6]) (./sections/analysis/205.tex
+
+LaTeX Warning: Citation `code' on page 7 undefined on input line 2.
+
+
+LaTeX Warning: Citation `define-information-privacy' on page 7 undefined on inp
+ut line 6.
+
+
+LaTeX Warning: Citation `define-privacy' on page 7 undefined on input line 6.
+
+
+LaTeX Warning: Citation `define-confidential' on page 7 undefined on input line
+ 9.
+
+
+LaTeX Warning: Citation `define-data' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `privacy-settings' on page 7 undefined on input line 9.
+
+
+
+LaTeX Warning: Citation `define-professional' on page 7 undefined on input line
+ 12.
+
+
+LaTeX Warning: Citation `define-software-engineer' on page 7 undefined on input
+ line 12.
+
+
+LaTeX Warning: Citation `define-public-interest' on page 7 undefined on input l
+ine 15.
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 18--19
+|   []   |   [] \OT1/cmr/m/n/12 gath-ered dur-ing |   []   |   []
+ []
+
+[7]
+
+LaTeX Warning: Citation `study' on page 8 undefined on input line 22.
+
+
+LaTeX Warning: Citation `study' on page 8 undefined on input line 25.
+
+
+LaTeX Warning: Citation `laboratorium' on page 8 undefined on input line 25.
+
+
+LaTeX Warning: Citation `define-experimental-psychology' on page 8 undefined on
+ input line 29.
+
+
+LaTeX Warning: Citation `disclose-information' on page 8 undefined on input lin
+e 29.
+
+)
+Underfull \hbox (badness 6300) in paragraph at lines 34--5
+\OT1/cmr/m/n/12 \  emo-tional con-ta-gion" ex-per-i-ment gath-ered
+ []
+
+) [8] [9
+
+]
+No file main.bbl.
+(./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2520 strings out of 493014
+ 34369 string characters out of 6133351
+ 120658 words of memory out of 5000000
+ 6047 multiletter control sequences out of 15000+600000
+ 8347 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 25i,5n,32p,1389b,182s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (12 pages, 87882 bytes).
+PDF statistics:
+ 55 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
