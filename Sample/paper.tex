@@ -1,0 +1,411 @@
+% One Column Format
+\documentclass[12pt]{article}
+
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{url}
+\usepackage{titlesec}
+\usepackage{framed}
+\usepackage{ulem}
+\usepackage[linktoc=all]{hyperref}
+
+\sloppy
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+\titleformat{\subsubsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titleclass{\subsubsubsubsection}{straight}[\subsection]
+\newcounter{subsubsubsubsection}[subsubsubsection]
+\renewcommand\thesubsubsubsubsection{\thesubsubsubsection.\arabic{subsubsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsubsection.\arabic{paragraph}}
+\titleformat{\subsubsubsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@subsubsubsubsection{5}
+\makeatletter
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\l@subsubsubsubsection{\@dottedtocline{5}{10em}{5em}}
+\makeatother
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{letterpaper}
+
+
+\begin{document}
+
+\title{\vfill Location Surveillance} %\vfill gives us the black space at the top of the page
+\author{
+By Wonderfully smart student \vspace{10pt} \\
+Computer Science \vspace{10pt} \\
+CSC 300: Professional Responsibilities  \vspace{10pt} \\
+Dr. Clark Turner \vspace{10pt} \\
+}
+\date{\today}
+
+\maketitle
+
+\vfill  %in combination with \newpage this forces the abstract to the bottom of the page
+\begin{abstract}
+During an investigation of Antoine Jones for cocaine-related charges in 2004 and 2005, the FBI attached a GPS device to Jones' car and tracked it for four weeks. \cite{maynarddecision} Was it ethical for the FBI to plant a GPS device as a part of its investigation into Antoine Jones?
+
+Some argue that this location information enabled the FBI to get a major drug dealer off the street. \cite{huffingtonsurveillance} Others say any use of long-term surveillance violates a right to
+privacy. \cite{chillingeffect} By applying ethical principles from tenet 3.12 of the IEEE/ACM Software Engineering Code of Ethics and Professional Practice 
+we determine that this use of GPS technology is unethical because it breaches users' rights to privacy.
+\end{abstract}
+
+\thispagestyle{empty} %remove page number from title page, but still keep it as pg #1
+\newpage
+
+
+%end the 1 column format
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+
+
+% start 2 column format
+\pagenumbering{arabic}
+\begin{multicols}{2}
+%Start numbering first page of content as page 1
+\setcounter{page}{1}
+%%%%%%%%%%%%%%%%%%%%
+%%% Known Facts  %%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Facts}
+A United States Federal Bureau of Investigation (FBI) Task Force began investigating Antoine Jones and Lawrence Maynard for
+narcotics violations in 2004. \cite{maynarddecision} On October 25, 2005, Jones
+and co-conspirators were charged with conspiracy to distribute and possession
+with intent to distribute cocaine and cocaine base among other charges. 
+\cite{maynarddecision} Maynard pleaded guilty in June 2006 after being added as a
+defendant in March. \cite{maynarddecision} 
+
+The FBI submitted evidence obtained from a Global Positioning Service (GPS) device as part of its case against Jones. \cite{maynarddecision} 
+This GPS device collected data about Jones' location every 10 seconds for four weeks. \cite{effjones}
+It was planted on Jones' car while the car was on private property. \cite{effjones}
+The FBI's warrant to place the device expired the day before the device was placed. \cite{usvjonesopinions}
+The warrant also specified that the device be planted in the District of Columbia, and the agents instead placed it while the car was in Maryland. \cite{usvjonesopinions}
+
+Both Jones and Maynard appealed their convictions 
+to the United States Court of Appeals for the District of Columbia 
+Circuit.
+The Court of Appeals reversed Jones' decision and affirmed Maynard's in a consolidated 
+appeal. \cite{maynarddecision}
+Jones' conviction was overturned due to the Court of Appeals' ruling that the data
+collected from the GPS device violated his Fourth Amendment protections
+against unreasonable searches and seizures. \cite{nytimes} In January 2012, the
+Supreme Court heard \textit{United States v Jones} and unanimously confirmed the Court of Appeals' ruling. \cite{effjones}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Research Question %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Research Question}
+Was it ethical for the FBI to plant a GPS device as a part of its investigation into Antoine Jones?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Social Implications  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Social Implications}
+Ordinary American citizens are increasingly trackable with today's technology. As of 2015, 64\% of Americans own smartphones, a large increase from 35\% in 2011. \cite{pew}
+Each of these smartphones contains GPS capabilities used for services such as navigation and food delivery. \cite{iphone}
+With this growing number of smartphone users and the GPS devices found inside 
+each of these phones, it is possible that GPS tracking could be used on a large portion
+of US citizens by both public and private entities. 
+
+The FBI has taken the universality of technology as an opportunity to expand its law enforcement capabilities, for example using technologies including GPS to monitor people of interest. \cite{acluamicus}
+These technologies allow the government to track people more effectively than ever before. \cite{aclu_privacy}
+This has put the FBI at odds with advocacy groups like the American Civil Liberties Union (ACLU) and Electronic Frontier Foundation (EFF) who oppose government surveillance. \cite{eff_privacy, aclu_privacy}
+The boundary of a government's ability to enforce the law and its citizen's right to privacy is an ongoing debate and the ability to track people's location is central to this discussion. \cite{acluamicus}
+
+In a 2015 study of Americans, 93\% said control over who can access their information is important and 90\% said controlling what personal information is shared with others is important to them. \cite{pew} 
+Sharing any information without consent would therefore be concerning to most Americans.
+Specifically, location information is a type of information that many consider private. \cite{acluamicus} 
+
+In a study published at Oxford, researchers confirmed a view long
+held by privacy advocates: the knowledge that a government could be tracking you changes how
+you behave. \cite{chillingeffect} This effect, called the chilling effect, stifles free speech
+and access to online content. \cite{chillingeffect}
+Government surveillance, including location surveillance, creates a chilling effect that limits people's rights and freedom. \cite{chillingeffect}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Others' Arguments %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Others' Arguments}
+\subsection{Ethical}
+It is ethical for location data to be given to or used by law enforcement.
+\subsubsection{General Keith Alexander}
+In a congressional hearing, General Keith Alexander said that mass
+surveillance programs have prevented over 50 terrorist attacks. \cite{huffingtonsurveillance}
+He said that 90\% of these preventions were aided by internet surveillance. \cite{huffingtonsurveillance} 
+Specific examples of prevented attacks include a scheme to bomb a New York subway in the fall of 2009. \cite{huffingtonsurveillance}
+By this argument, not only is the use of location data ethical, it is vital for the safety of Americans.
+Officials go on to say all data collection is monitored internally to prevent abuse. \cite{huffingtonsurveillance}
+\subsubsection{Supreme Court Opinion}
+The majority opinion of the Supreme Court in \textit{United States v Jones} found that location data can be used by law enforcement as long as the relevant parties have a warrant. \cite{usvjonesopinions}
+The opinion, written by Justice Scalia, found that the FBI's actions were unconstitutional because the warrant they had for placing the GPS device expired before the device was placed. They argue that it is not a question of whether Jones had a reasonable expectation of privacy, but one of how the government placed a device on his property without consent. \cite{usvjonesopinions}
+\subsection{Unethical}
+It is not ethical for location data to be given to or used by law enforcement.
+\subsubsection{Justice Alito}
+In a concurring opinion on the Jones case, Justice Alito argued that this case was one about privacy and the Fourth Amendment's protection of a reasonable expectation of privacy. \cite{usvjonesopinions}
+He concluded that ``the use of longer term GPS monitoring in investigations of most offenses impinges on expectations of privacy.''\cite{washingtonpost}
+\subsubsection{ACLU}
+In the ACLU's Amicus Brief submitted to the Supreme Court for the \textit{United States v Jones} case, they stated that ``The cost of being out of doors should not include being targeted by a battery of technologies that possess surveillance capabilities far exceeding those of the unaided five senses.''\cite{acluamicus} They argue that allowing investigators to use GPS tracking without the knowledge of the subject of tracking leaves everyone vulnerable to being tracked and that being tracked in a public place can be more intrusive in a digital age. \cite{acluamicus}
+
+%%%%%%%%%%%%%%%%
+%%% Analysis %%%
+%%%%%%%%%%%%%%%%
+\section{Analysis}
+
+\subsection{How the SE Code Applies}
+In the preamble, the SE Code states that it ``prescribes these as obligations of anyone claiming to be or aspiring to be a software engineer.''\cite{secode}
+\subsubsection{Software Engineer}
+The SE Code defines Software Engineers as ``those who contribute by direct participation or by teaching, to the ... design, ... of software systems.''\cite{secode}. 
+\subsubsubsection{Direct Participation}
+Participate means ``to take part.''\cite{dictionary}
+Direct means ``without an intervening agency.''\cite{dictionary}
+Agency is ``a person or thing through which power is exerted or an end is achieved.''\cite{dictionary}
+Therefore direct participation is taking part without an intervening person or thing through which power is exerted or an end is achieved.
+\subsubsubsection{Design}
+Design is ``to devise for a specific function or end.''\cite{dictionary}
+\subsubsubsection{Software System}
+Software is ``something used or associated with and usually contrasted with hardware.''\cite{dictionary}. 
+Network connections utilize hardware switches to communicate from machine to machine. \cite{networking} 
+As network connections are used with hardware while not being hardware, they are software.
+A GPS device communicates using network connections. \cite{gps}
+So the use of this GPS device to talk to another device is a use of software. \cite{gps}
+Specifically, the GPS device used to track Antoine Jones used multiple satellites, a cellular phone, and a computer to transmit location data from the car to a government office. \cite{usvjonesopinions}
+
+A system is ``a group of devices or artificial objects or an organization forming a network especially for distributing something or serving a common purpose.''\cite{dictionary}
+As the GPS device communicated across a network of hardware devices including satellites and a computer for the purpose of transmitting location information, the GPS location tracking is a system.
+Therefore, in this domain, software can be rewritten as GPS and software system can be written GPS tracking.
+\subsubsubsection{Software Engineer Definition}
+Using the above definitions, a Software Engineer is one who contributes by taking part without an intervening person or thing through which power is exerted or an end is achieved to devise for a specific function or end a GPS tracking device.
+\subsubsubsection{Analysis}
+\subsubsubsubsection{Contributes by Taking Part}
+By placing the GPS device on Antoine Jones' car \cite{usvjonesopinions}, the FBI took part in the use of GPS to track his location.
+\subsubsubsubsection{Without an Intervening Person or Thing}
+The GPS device was placed by an FBI agent and the data collected was used by the FBI in its case against Antoine Jones. \cite{usvjonesopinions}
+As such, there was no intervening party involved in the GPS tracking.
+\subsubsubsubsection{Devise for a Specific Function or End}
+The GPS tracking  was used to track the location of Antoine Jones for four weeks as part of the investigation into his cocaine operation. \cite{maynarddecision}
+The purpose of this location tracking was to obtain data to be used against him in court. Therefore, the GPS tracking was devised for the specific end of arresting Antoine Jones. 
+\subsubsubsection{Conclusion}
+Therefore the FBI acted as a Software Engineer in its placement and use of a GPS device to track Antoine Jones. 
+\subsubsection{Prescribe}
+Prescribe means ``to lay down a rule.''\cite{dictionary} In this case, the rule is the SE Code. 
+As the organization that created the ACM code, it is implied that ACM is the one laying down these rules. \cite{secode}
+Therefore, in this context, prescribe means the ACM laid down the SE Code.
+\subsubsection{Aspiring}
+Aspire means ``to seek to attain or accomplish a particular goal.''\cite{dictionary}
+\subsubsection{Who the SE Code Applies to}
+A domain specific version of who the SE Code applies to is: the ACM laid down the SE Code as obligations of anyone seeking to accomplish the goal of being a Software Engineer.
+\subsubsection{Analysis}
+As defined above, the FBI acted as a Software Engineer. 
+As such, they were seeking to accomplish the goals of a Software Engineer, namely using a GPS device. 
+Therefore, the SE Code describes obligations of the FBI.
+\subsubsection{Conclusion}
+As the FBI acted as a Software Engineer, they "shall adhere to" the Code. \cite{secode}
+Therefore we will analyze the ethics of the FBI placing a GPS device on Jones' car in terms of SE Code Tenets.
+
+\subsection{Code Tenet 1.05}
+\subsubsection{Definition}
+Tenet 1.05 of the SE Code states that 
+
+\begin{framed}
+Software Engineers must ``\underline{cooperate} in efforts to address \uline{matters of grave public concern} caused by \underline{software}...''\cite{secode}
+\end{framed}
+\subsubsubsection{Cooperate}
+To cooperate can be stated as ``to work or act with another or other persons willingly and agreeably''. \cite{cooperate_def}
+\subsubsubsection{Matters of Grave Public Concern}
+The public is ``of or relating to people in general''. \cite{dictionary}
+A concern is defined as ``to be a care, trouble, or distress to''. \cite{dictionary}
+So a matter of public concern is a care, trouble, or distress to people in general.
+The adjective grave means ``meriting serious consideration.''\cite{dictionary}
+Serious is defined as ``not easily answered or solved.''\cite{dictionary}
+Therefore, a matter of grave public concern is a care, trouble, or distress to people in general that merits not easily answered consideration.
+
+Technological innovations have changed the meaning of privacy with digital footprints tracking people in ways that were once impossible. \cite{aclu_privacy}. 
+As Supreme Court Chief Justice John Roberts said in \textit{Riley v California}, ``The fact that technology now allows an individual to carry such information in his hand does not make the information any less worthy of the protection for which the Founders fought.''\cite{aclu_privacy}
+Giving the government access to a person's location, interests, purchases, and more compromises their free speech, autonomy, and security. \cite{aclu_privacy, eff_privacy} 
+
+Free speech is almost universally considered a care to people in general, with specific mention in the United States Constitution. \cite{constitution}
+In \textit{Silence Dogood}, Benjamin Franklin said of the freedom of speech: 
+\begin{quote}
+This sacred Privilege is so essential to free Governments, that the Security of Property, and the Freedom of Speech always go together; and in those wretched Countries where a Man cannot call his Tongue his own, he can scarce call any Thing else his own. Whoever would overthrow the Liberty of a Nation, must begin by subduing the Freeness of Speech
+\end{quote}
+\cite{silence_dogood}
+He explained that without the freedom of speech, people lose their freedom.
+Therefore freedom of speech is an essential component of freedom and is a care to people in general.
+
+Further, ``the right of the people peaceably to assemble'' in the Constitution requires autonomy to gather with people physically or online without fear of government repercussions. \cite{constitution}
+This Mention in the US Constitution means that the issue of government surveillance and privacy is a care to people in general.
+
+Further, when the issue of GPS tracking came up in the supreme court in \textit{United States v Jones}, the justices split three ways in their comments on location tracking. \cite{usvjonesopinions}
+The Supreme Court Justices spend considerable time debating every case that comes to them, with approximately two weeks out of every four dedicated to study. \cite{supreme_court_procedures}
+If the Supreme Court could not come to an unanimous decision, the case is not easily answered.
+Therefore, as a subsection of government surveillance, location tracking by the FBI is a matter of grave public concern.
+\subsubsubsection{Software}
+As defined above, in this domain, software can be rewritten as GPS communication.
+\subsubsection{Domain Specific Tenet 1.05}
+Therefore, the SE Code tenet can be stated: 
+\begin{framed}
+The FBI must \uline{work with other persons} \uline{willingly and agreeably} in \uline{efforts to address tracking location without permission caused by GPS communication.}
+\end{framed}
+\subsubsection{Analysis}
+\subsubsubsection{Work with Other Persons}
+The organizations that work in the areas of privacy and public concern include the court system and advocacy groups. As a government organization, the FBI is subject to court rulings. Advocacy groups like the EFF and ACLU are nonprofit organizations that work with the government to defend civil liberties. \cite{eff_mission, aclu_mission}
+
+The ACLU and EFF have made their stance on privacy and location tracking clear, with statements explaining the importance of privacy. \cite{aclu_privacy, eff_privacy}
+
+The courts also have a definition of privacy, with the Supreme Court ruling that people have a ``reasonable expectation of privacy'' in \textit{Katz v United States}. \cite{katz}
+
+As described above, the relevant other persons in this domain, the court system and advocacy groups, agree that people have an expectation of privacy. Therefore, in working with them, the FBI would have to work within the constraint of reasonable expectation of privacy in its location tracking.
+\subsubsubsection{Willingly and Agreeably}
+Before placing the GPS device, the FBI asked for a warrant for the placement of the device. \cite{usvjonesopinions} 
+This warrant would be direct permission from the courts to track Antoine Jones for a specified period of time.
+They received a warrant to place the GPS device in the District of Columbia, but they placed the device a day after the warrant expired. \cite{usvjonesopinions}
+As the warrant was no longer valid, the FBI no longer had permission from the courts to track Antoine Jones.
+
+The Fourth Amendment protects against ``unreasonable searches and seizures'' except when a valid warrant exists. \cite{constitution}
+Valid warrants are the agreed way to allow law enforcement to do their job while protecting citizens.
+Without a valid warrant, the FBI was ignoring the court's power to protect against unreasonable searches and thus no longer working within the Constitution.
+In tracking him despite the expired warrant, the FBI did not willingly and agreeably work with the courts.
+\subsubsubsection{Efforts to Address Location Tracking without Permission caused by GPS Communication}
+The FBI placed a GPS device on Antoine Jones' car without his permission\cite{usvjonesopinions}, an example of tracking location without permission with the use of GPS communication.
+This location tracking violated the concerns of advocacy groups by allowing the government continuous access to Antoine Jones' location. \cite{aclu}
+It also violated the concerns of the court by tracking him without a valid warrant. \cite{usvjonesopinions}
+A valid warrant is a legal exception to the expectation of privacy, but without this the FBI infringed on Antoine Jones' reasonable expectation of privacy.
+\subsubsection{Conclusion}
+Therefore, the FBI must work to address this problem and its placing of the GPS device was unethical.
+
+\subsection{Code Tenet 3.12}
+\subsubsection{Definition}
+SE Code Tenet 3.12 states that 
+\begin{framed}
+Software Engineers should ``work to \underline{develop} \underline{software} and related documents that respect the \underline{privacy} of those who will be \underline{affected} by that \underline{software}.''\cite{secode}
+\end{framed}
+\subsubsubsection{Software}
+As defined above, software can be rewritten as GPS device and software system is GPS tracking.
+\subsubsubsection{Develop Software}
+Develop means ``to create or produce especially by deliberate effort over time.''\cite{dictionary}
+So in this domain, to develop software is to create GPS devices especially by deliberate effort over time.
+\subsubsubsection{Privacy}
+According to Merriam-Webster, privacy is ``freedom from unauthorized intrusion.''\cite{dictionary}
+An intrusion is ``the act of wrongfully entering upon, seizing, or taking possession of the property of another.''\cite{dictionary}
+Therefore, a violation of privacy is any action that involves any of entering upon, seizing, or taking possession of the property of others without their permission.
+\subsubsection{Domain Specific Tenet 3.12}
+Therefore, the SE Code tenet can be written as: 
+\begin{framed}
+The FBI should work to \uline{create GPS tracking} and related documents by \uline{deliberate effort over time} that \uline{respect the freedom from unauthorized entering upon}, seizing, or taking possession of the property of \uline{those who will be affected by that GPS device}. 
+\end{framed}
+\subsubsection{Analysis}
+\subsubsubsection{Create GPS Tracking}
+The FBI used GPS tracking to gather location data on Antoine Jones. 
+The GPS device was planted by FBI agents and monitored by the agency while it was being used to collect data. \cite{usvjonesopinions} 
+This tracking was a system created by the FBI using the GPS device and other hardware and software. \cite{usvjonesopinions}
+\subsubsubsection{Deliberate Effort Over Time}
+During the course of the FBI's use of the GPS device, they had to replace the battery on the device and so sent an agent to the car while it was parked in a public lot. \cite{usvjonesopinions}
+Placing the device and replacing the battery without Antoine Jones noticing required deliberate effort.
+
+The GPS device was in use over a period of four weeks capturing data every 10 seconds. \cite{effjones} 
+The continued monitoring required effort over this time required all of the location information to be assessed to get meaningful data out of it.
+
+This deliberate placement and monitoring of the GPS device over the course of four weeks therefore was deliberate effort over time.
+\subsubsubsection{Entering Upon}
+Information about where you are can give away a lot of personal information including where you live, who your friends are, how often you go to the doctor, and more. \cite{aclu_privacy}
+This information can reveal a lot about a person and therefore constitutes an entering upon their personal life.
+
+Further, the placement of the GPS device required an FBI agent to place the device on Jones' car. \cite{usvjonesopinions} This is a physical entering upon his property.
+\subsubsubsection{Respect Freedom from Unauthorized Entering Upon}
+The GPS device collected location information which, as stated above, is an entering upon.
+The GPS device was placed on Antoine Jones' car without his knowledge or permission. \cite{usvjonesopinions}
+Without Jones knowing the device was placed, it was not possible for Antoine Jones to question the authority that placed the device or to authorize that placement himself.
+Therefore the placement and use of the GPS device by the FBI was an unauthorized entering upon Jones' personal life.
+
+Freedom from unauthorized entering upon involves having restraints on the unauthorized entering upon. Therefore, in order to respect freedom from unauthorized entering upon, one must not condone or participate in unauthorized entering upon.
+The FBI's unauthorized entering upon therefore did not respect Antoine Jones' freedom from this unauthorized entering upon.
+\subsubsubsection{Those Who Will be Affected by that GPS Device}
+The GPS device used by the FBI was used as evidence in a trial that put Antoine Jones in prison. \cite{maynarddecision}
+Going to prison would take him away from his current life and drastically change his future prospects, constituting an affect on his life.
+Therefore, Antoine Jones was affected by the use of GPS by the FBI. 
+
+\subsubsection{Conclusion}
+Therefore, the use of the GPS device by the FBI against Antoine Jones was unethical as it violated the Domain Specific version of SE Code Tenet 3.12.
+
+\subsection{Code Tenet 4.01}
+\subsubsection{Definition}
+SE Code Tenet 4.01 states that 
+\begin{framed}
+Software Engineers shall ``\underline{temper} all \underline{technical judgments} by the need to \underline{support} and \underline{maintain} \underline{human values}.''\cite{secode}
+\end{framed}
+\subsubsubsection{Temper}
+When used as a verb, temper is defined as ``to dilute, qualify, or soften by the addition or influence of something else.''\cite{dictionary}
+\subsubsubsection{Technical Judgments}
+Technical means ``based on or marked by a strict or legal interpretation.''\cite{dictionary} So technical judgments are judgments based on or marked by a strict or legal interpretation.
+\subsubsubsection{Support}
+Support is defined as ``to promote the interests or cause of.''\cite{dictionary}
+\subsubsubsection{Maintain} 
+Maintain means ``to support or provide for.''\cite{dictionary}
+Using the above definition of support, maintain can be rewritten as to promote the interests or cause of or provide for. 
+\subsubsubsection{Support and Maintain}
+Using the above definitions, support and maintain can be rewritten as: to promote the interests or cause of and to promote the interests or cause of or provide for. This can be simplified to: to promote the interests or cause of.
+\subsubsubsection{Human Values}
+A value is ``something intrinsically valuable or desirable.''\cite{dictionary}
+Something is valuable when it is ``of great use or service.''\cite{dictionary}
+Therefore, a human value is something intrinsically of great use or service to humans.
+The cocaine trafficking Antoine Jones was accused of negatively affecting the economy, health care system, and criminal justice system for people in America and other countries involved in the trade. \cite{drug_impact}
+Further, those addicted to drugs are more likely to commit crimes. 18\% of federal prisoners were imprisoned while trying to obtain drug money. Further, 4\% of homicides in 2008 were drug related. \cite{drug_impact}
+Eliminating this drug trafficking would remove these negative effects.
+Therefore, eliminating drug trafficking would positively impact the economy, healthcare system, and criminal justice system while decreasing crime.
+These benefits would be of great service to those who participate in the economy, need healthcare, and could be affected by crimes.
+So, eliminating drug trafficking is a human value.
+\subsubsection{Domain Specific Tenet 4.01}
+Using the above definitions, SE Code 4.01 can be stated: 
+\begin{framed}
+The FBI shall \uline{soften all judgments} \uline{based on or marked by a strict or legal interpretation} by the addition of \uline{the need to promote the interests of eliminating drug trafficking}.
+\end{framed}
+\subsubsection{Analysis}
+\subsubsubsection{Judgments Based on or Marked by a Strict or Legal Interpretation}
+When this issue was brought to the Supreme Court, all nine justices agreed that the use of a GPS device in this case was unconstitutional. \cite{usvjonesopinions}
+Therefore based on a legal interpretation, the FBI's placement of the GPS device was wrong.
+
+Further, as described above, a strict interpretation of SE Code tenets 1.05 and 3.12 shows that the FBI's placement of the GPS device was unethical.
+\subsubsubsection{Soften all Judgments}
+However, the tenet states that this judgment can be softened in particular cases as described below.
+This means that if other considerations are met, the strict interpretation described above could be relaxed in this case.
+\subsubsubsection{The Need to Promote the Interests of Eliminating Drug Trafficking}
+Placing a GPS device on Antoine Jones' car helped the FBI obtain evidence needed to convict him and prevent him from continuing to participate in drug trafficking. \cite{maynarddecision}
+This use of software promoted the interest of eliminating drug trafficking.
+\subsubsection{Conclusion}
+The use of GPS communication by the FBI against Antoine Jones was ethical because it promoted the interest of eliminating drug trafficking.
+\subsection{Conclusion}
+The FBI acted as a Software Engineer when placing a GPS device on Antoine Jones' car, and so is subject to the ethical obligations described in the SE Code.
+By our analysis of tenets 1.05 and 3.12 of the SE Code, the FBI's placement of the GPS device was unethical. 
+
+Analysis of tenet 4.01 contradicts this, but as the placement of the device was unethical according to two other tenets, the one tenet supporting the placement is outweighed.
+Further, the analysis of 4.01 required that the use of the GPS device was required to reduce Antoine Jones' impact on drug trafficking. 
+However Maynard, a co-conspirator in this case, was able to be convicted without the use of GPS evidence. \cite{maynarddecision}
+If the FBI had a way to convict Jones without the use of a GPS device, the argument in tenet 4.01 would not apply.
+
+Therefore, the FBI's placement of a GPS device on Antoine Jones' car was unethical by the standard of the SE Code.
+
+%end the two column format
+\end{multicols}
+
+% cite all the references you want in your annotated bibliography that you cite in the paper.  Annotations, a few sentences about the relevance of the source, are required for each biblio entry.
+
+\bibliographystyle{IEEEannot}
+
+\bibliography{paper}
+\end{document}
