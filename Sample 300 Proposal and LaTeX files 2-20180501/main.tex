@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+\sloppy
+\usepackage{url}
+\usepackage[normalem]{ulem}
+\usepackage[margin=0.75in, bottom=1in]{geometry}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+
+\input{subsection.tex}
+
+\begin{document}
+\input{title.tex}
+
+%%%%%% Table of Contents %%%%%%
+\pagenumbering{gobble}
+\thispagestyle{empty}
+\pagestyle{plain}
+\newpage
+    \onecolumn
+	\tableofcontents
+\newpage
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\twocolumn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{sections/facts.tex}
+
+\section{QUESTION}
+Was it ethically justifiable for Facebook to conduct this experiment without explicitly informing the participants?
+\vspace{0.4cm}
+
+\input{sections/social.tex}
+
+\input{sections/arguments.tex}
+
+\input{sections/code.tex}
+
+\input{sections/analysis.tex}
+
+%%%%%%%%% Bibliography %%%%%%%%
+
+\newpage
+\onecolumn
+\Urlmuskip=0mu plus 1mu\relax
+\addcontentsline{toc}{section}{References}	
+\bibliographystyle{acm}
+\bibliography{bibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\end{document}
