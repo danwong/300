@@ -42,3 +42,4 @@
 \contentsline {subsubsubsection}{\numberline {6.3.3.3}Welfare of the General Public and the Law}{8}
 \contentsline {subsubsection}{\numberline {6.3.4}Conclusion}{8}
 \contentsline {subsection}{\numberline {6.4}Conclusions of Analysis}{8}
+\contentsline {section}{References}{10}

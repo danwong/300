@@ -5,3 +5,16 @@ https://www.washingtonpost.com/news/in-theory/wp/2015/12/15/how-the-nsa-tried-to
 
 (Manhattan-da)
 https://www.manhattanda.org/wp-content/themes/dany/files/2017%20Report%20of%20the%20Manhattan%20District%20Attorney%27s%20Office%20on%20Smartphone%20Encryption.pdf
+
+(SE-Code)
+http://ethics.acm.org/code-of-ethics/software-engineering-code/
+
+(Slate-encryption)
+http://www.slate.com/articles/technology/safety_net/2015/02/what_is_encryption_a_nontechnical_guide_to_protecting_your_digital_communications.html
+
+(tutorialspoint)
+https://www.tutorialspoint.com/operating_system/os_overview.htm
+
+Tenet 3.14 Maintain the integrity of data, being sensitive to outdated or flawed occurrences.
+
+TENET 6.06 Obey all laws governing their work, unless, in exception circumstances, such compliance is inconsistent with the public interest.
