@@ -44,4 +44,4 @@
 \contentsline {subsubsubsection}{\numberline {6.3.3.2}Who Observed the Data?}{8}
 \contentsline {subsubsubsection}{\numberline {6.3.3.3}Welfare of the General Public and the Law}{8}
 \contentsline {subsubsection}{\numberline {6.3.4}Conclusion}{8}
-\contentsline {subsection}{\numberline {6.4}Conclusions of Analysis}{9}
+\contentsline {subsection}{\numberline {6.4}Conclusions of Analysis}{8}

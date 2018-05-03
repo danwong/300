@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 MAY 2018 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 MAY 2018 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -204,34 +204,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2] (./sections/facts.tex
 
-LaTeX Warning: Citation `study' on page 1 undefined on input line 3.
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no ˆ in font cmr12!
-Missing character: There is no ’ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no ˆ in font cmr12!
-Missing character: There is no ’ in font cmr12!
-
-LaTeX Warning: Citation `study' on page 1 undefined on input line 5.
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-
-LaTeX Warning: Citation `study' on page 1 undefined on input line 7.
+LaTeX Warning: Citation `apple-letter' on page 1 undefined on input line 3.
 
 
-LaTeX Warning: Citation `forbes' on page 1 undefined on input line 7.
+LaTeX Warning: Citation `aljazeera' on page 1 undefined on input line 5.
 
 
-LaTeX Warning: Citation `study' on page 1 undefined on input line 7.
+LaTeX Warning: Citation `apple-letter' on page 1 undefined on input line 7.
 
 
-LaTeX Warning: Citation `atlantic' on page 1 undefined on input line 7.
+LaTeX Warning: Citation `apple-letter' on page 1 undefined on input line 9.
 
 ) (./sections/social.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -261,16 +243,17 @@ Underfull \hbox (badness 4967) in paragraph at lines 26--35
 []\OT1/cmr/m/n/12 Another im-por-tant con-sid-er-a-tion is the
  []
 
-[1
-
-] (./sections/arguments.tex
+(./sections/arguments.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 |[]\OT1/cmr/bx/n/17.28 EXTERNAL AR-GU-
  []
 
 
-LaTeX Warning: Citation `slate' on page 2 undefined on input line 3.
+LaTeX Warning: Citation `slate' on page 1 undefined on input line 3.
 
+[1
+
+]
 
 LaTeX Warning: Citation `leeper' on page 2 undefined on input line 6.
 
@@ -324,14 +307,14 @@ Underfull \hbox (badness 5862) in paragraph at lines 1--1
 
 LaTeX Warning: Citation `code' on page 2 undefined on input line 2.
 
+
+LaTeX Warning: Citation `define-news-feed' on page 2 undefined on input line 3.
+
+
+
+LaTeX Warning: Citation `study' on page 2 undefined on input line 5.
+
 [2]
-
-LaTeX Warning: Citation `define-news-feed' on page 3 undefined on input line 3.
-
-
-
-LaTeX Warning: Citation `study' on page 3 undefined on input line 5.
-
 
 LaTeX Warning: Citation `code' on page 3 undefined on input line 6.
 
@@ -410,7 +393,7 @@ LaTeX Warning: Citation `leeper' on page 4 undefined on input line 25.
 
 LaTeX Warning: Citation `slate' on page 4 undefined on input line 25.
 
-[4]) (./sections/analysis/203.tex
+) (./sections/analysis/203.tex [4]
 
 LaTeX Warning: Citation `code' on page 5 undefined on input line 2.
 
@@ -512,10 +495,10 @@ Underfull \hbox (badness 1394) in paragraph at lines 18--19
 |   []   |   [] \OT1/cmr/m/n/12 gath-ered dur-ing |   []   |   []
  []
 
+
+LaTeX Warning: Citation `study' on page 7 undefined on input line 22.
+
 [7]
-
-LaTeX Warning: Citation `study' on page 8 undefined on input line 22.
-
 
 LaTeX Warning: Citation `study' on page 8 undefined on input line 25.
 
@@ -545,17 +528,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2567 strings out of 492995
- 34995 string characters out of 6132704
+ 2568 strings out of 492995
+ 35006 string characters out of 6132704
  122895 words of memory out of 5000000
- 6104 multiletter control sequences out of 15000+600000
+ 6105 multiletter control sequences out of 15000+600000
  8347 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  25i,5n,32p,1389b,184s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 88000 bytes).
+Output written on main.pdf (12 pages, 87385 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
