@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {4}EXTERNAL ARGUMENTS}{2}
 \contentsline {subsection}{\numberline {4.1}Encryption: Last Week Tonight with John Oliver (HBO)}{2}
 \contentsline {subsection}{\numberline {4.2}Matt Blaze: A key under the doormat isn't safe. Neither is an encryption backdoor.}{2}
-\contentsline {subsection}{\numberline {4.3}James Grimmelmann: As Flies to Wanton Boys}{2}
+\contentsline {subsection}{\numberline {4.3}Manhattan District Attorney: Smartphone Encryption and Public Safety}{2}
 \contentsline {subsection}{\numberline {4.4}Tal Yarkoni: In Defense of Facebook}{2}
 \contentsline {subsection}{\numberline {4.5}Zeynep Tufekci: Facebook and Engineering the Public}{2}
 \contentsline {subsection}{\numberline {4.6}Michelle N. Meyer: Misjudgements will drive social trials underground}{2}
