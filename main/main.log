@@ -1,15 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 FEB 2018 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 MAY 2018 17:20
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,11 +23,11 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box26
 \UL@hyphenbox=\box27
 \UL@skip=\skip43
@@ -40,21 +39,21 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package: ulem 2012/05/18
 \ULdepth=\dimen105
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -70,14 +69,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen113
 \Gm@dimlist=\toks16
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/05/19 3.10 The Babel package
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/01/24 v3.3q English support from the babel system
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen114
 )
@@ -85,11 +84,11 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count92
 )
 \csq@reset=\count93
@@ -100,13 +99,13 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \csq@tshold=\count98
 \csq@ltx@everypar=\toks17
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
@@ -115,7 +114,7 @@ Package csquotes Info: Redefining alias 'english' -> 'english/american'.
 Package csquotes Info: Allocating character ".
 
 (./subsection.tex
-(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box29
 \beforetitleunit=\skip44
@@ -183,10 +182,14 @@ LaTeX Font Info:    ... okay on input line 12.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package csquotes Info: Making character " active on input line 12.
-(./title.tex [1
+(./title.tex
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./mai
-n.toc
+LaTeX Warning: Citation `apple-letter' on page 1 undefined on input line 25.
+
+[1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -542,17 +545,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2520 strings out of 493014
- 34369 string characters out of 6133351
- 120658 words of memory out of 5000000
- 6047 multiletter control sequences out of 15000+600000
+ 2567 strings out of 492995
+ 34995 string characters out of 6132704
+ 122895 words of memory out of 5000000
+ 6104 multiletter control sequences out of 15000+600000
  8347 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,5n,32p,1389b,182s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 87882 bytes).
+ 25i,5n,32p,1389b,184s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (12 pages, 88000 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
