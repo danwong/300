@@ -15,6 +15,9 @@ http://www.slate.com/articles/technology/safety_net/2015/02/what_is_encryption_a
 (tutorialspoint)
 https://www.tutorialspoint.com/operating_system/os_overview.htm
 
+(India)
+https://economictimes.indiatimes.com/definition/software-maintenance
+
 Tenet 3.14 Maintain the integrity of data, being sensitive to outdated or flawed occurrences.
 
 TENET 6.06 Obey all laws governing their work, unless, in exception circumstances, such compliance is inconsistent with the public interest.

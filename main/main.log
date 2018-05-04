@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 MAY 2018 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 MAY 2018 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -275,22 +275,34 @@ LaTeX Warning: Citation `SE-Code' on page 2 undefined on input line 6.
 
 [2]) (./sections/analysis.tex (./sections/analysis/314.tex
 
-LaTeX Warning: Citation `study' on page 3 undefined on input line 8.
+LaTeX Warning: Citation `india' on page 3 undefined on input line 6.
 
 
-LaTeX Warning: Citation `study' on page 3 undefined on input line 19.
+LaTeX Warning: Citation `apple-letter' on page 3 undefined on input line 19.
+
+
+LaTeX Warning: Citation `apple-letter' on page 3 undefined on input line 22.
+
+
+LaTeX Warning: Citation `washington-blaze' on page 3 undefined on input line 24
+.
+
+
+LaTeX Warning: Citation `washington-blaze' on page 3 undefined on input line 24
+.
+
+
+LaTeX Warning: Citation `washington-blaze' on page 3 undefined on input line 24
+.
 
 [3]
 
-LaTeX Warning: Citation `study' on page 4 undefined on input line 20.
+LaTeX Warning: Citation `apple-letter' on page 4 undefined on input line 27.
 
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
 
-LaTeX Warning: Citation `study' on page 4 undefined on input line 24.
+LaTeX Warning: Citation `apple-letter' on page 4 undefined on input line 27.
 
-) (./sections/analysis/203.tex [4]
+) (./sections/analysis/203.tex
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -303,7 +315,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-
+ [4]
 Underfull \hbox (badness 4266) in paragraph at lines 9--9
 |[]\OT1/cmr/bx/n/12 Proper Au-tho-riza-tion, Knowl-
  []
@@ -317,7 +329,13 @@ LaTeX Warning: Citation `study' on page 5 undefined on input line 20.
 
 LaTeX Warning: Citation `study' on page 5 undefined on input line 20.
 
-[5] [6]) (./sections/analysis/205.tex
+
+LaTeX Warning: Citation `forbes' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `forbes' on page 5 undefined on input line 26.
+
+[5]) (./sections/analysis/205.tex [6]
 Underfull \hbox (badness 1394) in paragraph at lines 18--19
 |   []   |   [] \OT1/cmr/m/n/12 gath-ered dur-ing |   []   |   []
  []
@@ -325,99 +343,53 @@ Underfull \hbox (badness 1394) in paragraph at lines 18--19
 
 LaTeX Warning: Citation `study' on page 7 undefined on input line 22.
 
-[7]
 
-LaTeX Warning: Citation `study' on page 8 undefined on input line 25.
+LaTeX Warning: Citation `study' on page 7 undefined on input line 25.
 
-)
+[7])
 Underfull \hbox (badness 6300) in paragraph at lines 34--5
 \OT1/cmr/m/n/12 \  emo-tional con-ta-gion" ex-per-i-ment gath-ered
  []
 
-) [8] [9
-
-] (./main.bbl
-Underfull \hbox (badness 6445) in paragraph at lines 47--50
+) [8] (./main.bbl
+Underfull \hbox (badness 6445) in paragraph at lines 37--40
 []\OT1/cmr/m/n/12 Definition of ex-per-i-men-tal psy-chol-ogy.  $\OT1/cmtt/m/n/
 12 http : / / www . dictionary . com / browse /
  []
 
 
-Underfull \hbox (badness 6380) in paragraph at lines 88--91
+Underfull \hbox (badness 6380) in paragraph at lines 73--76
 []\OT1/cmr/m/n/12 Disclosing con-fi-den-tial in-for-ma-tion.  $\OT1/cmtt/m/n/12
  http : / / www . apa . org / monitor / 2014 / 04 /
  []
 
-[10
+[9
 
-]
-Underfull \hbox (badness 2277) in paragraph at lines 136--144
-[]\OT1/cmr/m/sc/12 Hill, K.  \OT1/cmr/m/n/12 Face-book added 're-search' to use
-r agree-ment 4 months af-ter emo-tion
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 136--144
-\OT1/cmr/m/n/12 ma-nip-u-la-tion study.  $\OT1/cmtt/m/n/12 http : / / www . for
-bes . com / sites / kashmirhill / 2014 / 06 / 30 /
- []
-
-
-Overfull \hbox (58.57664pt too wide) in paragraph at lines 136--144
-\OT1/cmtt/m/n/12 facebook-[]only-[]got-[]permission-[]to-[]do-[]research-[]on-[
-]users-[]after-[]emotion-[]manipulation-[]study/$\OT1/cmr/m/n/12 ,
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-
-Underfull \hbox (badness 5050) in paragraph at lines 171--179
-[]\OT1/cmr/m/sc/12 Meyer, R.  \OT1/cmr/m/n/12 Ev-ery-thing we know about face-b
-ook's se-cret mood ma-nip-u-la-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--179
-\OT1/cmr/m/n/12 ex-per-i-ment.  $\OT1/cmtt/m/n/12 http : / / www . theatlantic 
-. com / technology / archive / 2014 / 06 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--179
-\OT1/cmtt/m/n/12 everything-[]we-[]know-[]about-[]facebooks-[]secret-[]mood-[]m
-anipulation-[]experiment /
- []
-
-[11]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-) [12] (./main.aux)
+]) [10] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 2577 strings out of 492995
- 35120 string characters out of 6132704
- 123895 words of memory out of 5000000
- 6110 multiletter control sequences out of 15000+600000
+ 2569 strings out of 492995
+ 34988 string characters out of 6132704
+ 121895 words of memory out of 5000000
+ 6102 multiletter control sequences out of 15000+600000
  8817 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,5n,32p,1389b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,5n,32p,1389b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (15 pages, 116891 bytes).
+Output written on main.pdf (13 pages, 109123 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
