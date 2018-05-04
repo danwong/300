@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 MAY 2018 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 MAY 2018 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,14 +182,10 @@ LaTeX Font Info:    ... okay on input line 13.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package csquotes Info: Making character " active on input line 13.
-(./title.tex
+(./title.tex [1
 
-LaTeX Warning: Citation `apple-letter' on page 1 undefined on input line 25.
-
-[1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-(./main.toc
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./mai
+n.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -204,16 +200,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2] (./sections/facts.tex
 
-LaTeX Warning: Citation `apple-letter' on page 1 undefined on input line 3.
-
-
 LaTeX Warning: Citation `aljazeera' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation `apple-letter' on page 1 undefined on input line 7.
-
-
-LaTeX Warning: Citation `apple-letter' on page 1 undefined on input line 9.
 
 ) (./sections/social.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -262,28 +249,13 @@ Underfull \hbox (badness 5862) in paragraph at lines 1--1
  []
 
 
-LaTeX Warning: Citation `SE-Code' on page 2 undefined on input line 2.
-
-
 LaTeX Warning: Citation `tutorialspoint' on page 2 undefined on input line 3.
-
-
-LaTeX Warning: Citation `SE-Code' on page 2 undefined on input line 5.
-
-
-LaTeX Warning: Citation `SE-Code' on page 2 undefined on input line 6.
 
 [2]) (./sections/analysis.tex (./sections/analysis/314.tex
 
 LaTeX Warning: Citation `india' on page 3 undefined on input line 6.
 
 
-LaTeX Warning: Citation `apple-letter' on page 3 undefined on input line 19.
-
-
-LaTeX Warning: Citation `apple-letter' on page 3 undefined on input line 22.
-
-
 LaTeX Warning: Citation `washington-blaze' on page 3 undefined on input line 24
 .
 
@@ -295,14 +267,7 @@ LaTeX Warning: Citation `washington-blaze' on page 3 undefined on input line 24
 LaTeX Warning: Citation `washington-blaze' on page 3 undefined on input line 24
 .
 
-[3]
-
-LaTeX Warning: Citation `apple-letter' on page 4 undefined on input line 27.
-
-
-LaTeX Warning: Citation `apple-letter' on page 4 undefined on input line 27.
-
-) (./sections/analysis/203.tex
+[3]) (./sections/analysis/203.tex
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no œ in font cmr12!
@@ -369,15 +334,12 @@ Underfull \hbox (badness 6380) in paragraph at lines 73--76
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2569 strings out of 492995
- 34988 string characters out of 6132704
+ 2568 strings out of 492995
+ 34979 string characters out of 6132704
  121895 words of memory out of 5000000
- 6102 multiletter control sequences out of 15000+600000
+ 6101 multiletter control sequences out of 15000+600000
  8817 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  25i,5n,32p,1389b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -386,7 +348,7 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (13 pages, 109123 bytes).
+Output written on main.pdf (13 pages, 108953 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
