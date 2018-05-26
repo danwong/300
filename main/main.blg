@@ -1,0 +1,80 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+Case mismatch error between cite keys washingtonBlaze and WashingtonBlaze
+---line 36 of file main.aux
+ : \citation{washingtonBlaze
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys washingtonBlaze and WashingtonBlaze
+---line 37 of file main.aux
+ : \citation{washingtonBlaze
+ :                          }
+I'm skipping whatever remains of this command
+The style file: acm.bst
+Database file #1: bibliography.bib
+Warning--entry type for "Manhattan-da" isn't style-file defined
+--line 1 of file bibliography.bib
+Warning--entry type for "appleletter" isn't style-file defined
+--line 11 of file bibliography.bib
+Warning--entry type for "washingtonBlaze" isn't style-file defined
+--line 30 of file bibliography.bib
+I was expecting a `,' or a `}'---line 35 of file bibliography.bib
+ :     
+ :     author={Matt Blaze},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "apple-letter"
+Warning--I didn't find a database entry for "aljazeera"
+Warning--I didn't find a database entry for "brookings"
+Warning--I didn't find a database entry for "CNN-GOP-Debate"
+Warning--I didn't find a database entry for "John-Oliver"
+Warning--I didn't find a database entry for "ABC-TimCook"
+Warning--I didn't find a database entry for "code"
+Warning--I didn't find a database entry for "tutorialspoint"
+Warning--I didn't find a database entry for "india"
+Warning--I didn't find a database entry for "Manhattanda"
+Warning--I didn't find a database entry for "washington-blaze"
+Warning--to sort, need author or key in WashingtonBlaze
+You've used 3 entries,
+            2253 wiz_defined-function locations,
+            564 strings with 4917 characters,
+and the built_in function-call counts, 633 in all, are:
+= -- 59
+> -- 15
+< -- 0
++ -- 9
+- -- 4
+* -- 27
+:= -- 100
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 23
+empty$ -- 70
+format.name$ -- 4
+if$ -- 139
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 19
+num.names$ -- 4
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 20
+stack$ -- 0
+substring$ -- 17
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 1
+while$ -- 4
+width$ -- 4
+write$ -- 33
+(There were 3 error messages)

@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{WashingtonBlaze}
+A key under the doormat isn't safe. neither is an encryption backdoor.
+\newblock
+  \url{https://www.washingtonpost.com/news/in-theory/wp/2015/12/15/how-the-nsa-tried-to-build-safe-encryption-but-failed/?utm_term=.1632699b8130}.
+
+\bibitem{appleletter}
+{\sc Cook, T.}
+\newblock A message to our customers.
+\newblock \url{https://www.apple.com/customer-letter/}, Feb 2016.
+\newblock Letter to Apple customers about what the FBI wants from Apple and
+  what they have and will do.
+
+\bibitem{Manhattan-da}
+{\sc Office, M. D.~A.}
+\newblock Manhattan district attorney's office on : Smartphone encryption and
+  public safety.
+\newblock
+  \url{https://www.manhattanda.org/wp-content/themes/dany/files/2017%20Report%20of%20the%20Manhattan%20District%20Attorney%27s%20Office%20on%20Smartphone%20Encryption.pdf},
+  Nov 2017.
+\newblock Manhattan District Attorney's Office in regards to the current state
+  of smartphone encryption.
+
+\end{thebibliography}

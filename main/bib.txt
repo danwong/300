@@ -18,6 +18,12 @@ https://www.tutorialspoint.com/operating_system/os_overview.htm
 (India)
 https://economictimes.indiatimes.com/definition/software-maintenance
 
+https://docs.house.gov/meetings/IF/IF02/20160419/104812/HHRG-114-IF02-Wstate-BlazeM-20160419-U3.pdfi
+
 Tenet 3.14 Maintain the integrity of data, being sensitive to outdated or flawed occurrences.
 
 TENET 6.06 Obey all laws governing their work, unless, in exception circumstances, such compliance is inconsistent with the public interest.
+
+1.04. Disclose to appropriate persons or authorities any actual or potential danger to the user, the public, or the environment, that they reasonably believe to be associated with software or related documents.
+
+
