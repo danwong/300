@@ -20,14 +20,16 @@
 \contentsline {subsubsection}{\numberline {6.1.4}Conclusion}{4}
 \contentsline {subsection}{\numberline {6.2}Tenet 1.03: Potential Danger}{4}
 \contentsline {subsubsection}{\numberline {6.2.1}Definitions}{4}
-\contentsline {subsubsubsection}{\numberline {6.2.1.1}Safe}{4}
-\contentsline {subsubsubsection}{\numberline {6.2.1.2}Software Privacy}{4}
-\contentsline {subsubsubsection}{\numberline {6.2.1.3}Diminishment}{4}
-\contentsline {subsubsubsection}{\numberline {6.2.1.4}Actual or Potential Danger}{5}
-\contentsline {subsubsubsection}{\numberline {6.2.1.5}Reasonable Belief}{5}
+\contentsline {subsubsubsection}{\numberline {6.2.1.1}Well-founded bleief}{4}
+\contentsline {subsubsubsection}{\numberline {6.2.1.2}Safe}{4}
+\contentsline {paragraph}{6.2.1.2.1 Software Risk}{4}
+\contentsline {subsubsubsection}{\numberline {6.2.1.3}Software Privacy}{4}
 \contentsline {subsubsection}{\numberline {6.2.2}Domain Specific Rule}{5}
-\contentsline {subsubsection}{\numberline {6.2.3}Discussion}{5}
-\contentsline {subsubsubsection}{\numberline {6.2.3.1}Potential Risks}{5}
-\contentsline {subsubsubsection}{\numberline {6.2.3.2}Making Risks Known}{6}
-\contentsline {subsubsection}{\numberline {6.2.4}Conclusion}{6}
-\contentsline {section}{References}{7}
+\contentsline {subsubsubsection}{\numberline {6.2.2.1}Actual or Potential Danger}{5}
+\contentsline {subsubsubsection}{\numberline {6.2.2.2}Reasonable Belief}{5}
+\contentsline {subsubsection}{\numberline {6.2.3}Domain Specific Rule}{5}
+\contentsline {subsubsection}{\numberline {6.2.4}Discussion}{5}
+\contentsline {subsubsubsection}{\numberline {6.2.4.1}Potential Risks}{5}
+\contentsline {subsubsubsection}{\numberline {6.2.4.2}Making Risks Known}{6}
+\contentsline {subsubsection}{\numberline {6.2.5}Conclusion}{6}
+\contentsline {section}{References}{8}

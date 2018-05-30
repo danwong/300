@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAY 2018 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 MAY 2018 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex main.ptex
+**main.tex main.tex
 (./main.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
@@ -295,92 +295,106 @@ LaTeX Warning: Citation `apple-letter' on page 4 undefined on input line 27.
 LaTeX Warning: Citation `code' on page 4 undefined on input line 2.
 
 
-LaTeX Warning: Citation `define-safe' on page 4 undefined on input line 6.
+LaTeX Warning: Citation `define-safe' on page 4 undefined on input line 8.
 
 
-LaTeX Warning: Citation `define-safe2' on page 4 undefined on input line 6.
+LaTeX Warning: Citation `define-safe2' on page 4 undefined on input line 8.
 
 
-LaTeX Warning: Citation `define-privacy' on page 4 undefined on input line 8.
+LaTeX Warning: Citation `define-software-risk' on page 4 undefined on input lin
+e 11.
 
 
-LaTeX Warning: Citation `define-diminish' on page 4 undefined on input line 10.
+LaTeX Warning: Citation `define-software-risk' on page 4 undefined on input lin
+e 11.
+
+
+LaTeX Warning: Citation `define-privacy' on page 4 undefined on input line 14.
+
+
+LaTeX Warning: Citation `define-disclose' on page 4 undefined on input line 14.
 
 
 
-LaTeX Warning: Citation `define-disclose' on page 4 undefined on input line 32.
+LaTeX Warning: Citation `define-diminish' on page 4 undefined on input line 14.
 
-
-
-LaTeX Warning: Citation `irb-informed-consent' on page 4 undefined on input lin
-e 32.
 
 [4]
 
-LaTeX Warning: Citation `define-danger' on page 5 undefined on input line 34.
+LaTeX Warning: Citation `define-disclose' on page 5 undefined on input line 38.
 
 
-LaTeX Warning: Citation `define-harm' on page 5 undefined on input line 34.
+
+LaTeX Warning: Citation `irb-informed-consent' on page 5 undefined on input lin
+e 38.
+
+
+LaTeX Warning: Citation `define-danger' on page 5 undefined on input line 40.
+
+
+LaTeX Warning: Citation `define-harm' on page 5 undefined on input line 40.
 
 
 LaTeX Warning: Citation `define-social-science' on page 5 undefined on input li
-ne 34.
+ne 40.
 
 
-LaTeX Warning: Citation `study' on page 5 undefined on input line 34.
+LaTeX Warning: Citation `study' on page 5 undefined on input line 40.
 
 
 LaTeX Warning: Citation `define-reasonable-belief' on page 5 undefined on input
- line 36.
+ line 42.
 
 
-LaTeX Warning: Citation `defense' on page 5 undefined on input line 44.
+LaTeX Warning: Citation `defense' on page 5 undefined on input line 50.
 
 
-LaTeX Warning: Citation `misjudgements' on page 5 undefined on input line 44.
+LaTeX Warning: Citation `misjudgements' on page 5 undefined on input line 50.
 
 
-LaTeX Warning: Citation `study' on page 5 undefined on input line 45.
+LaTeX Warning: Citation `study' on page 5 undefined on input line 51.
 
 
-LaTeX Warning: Citation `atlantic' on page 5 undefined on input line 45.
-
-
-LaTeX Warning: Citation `study' on page 5 undefined on input line 46.
+LaTeX Warning: Citation `atlantic' on page 5 undefined on input line 51.
 
 [5]
 
+LaTeX Warning: Citation `study' on page 6 undefined on input line 52.
+
+
 LaTeX Warning: Citation `irb-informed-consent' on page 6 undefined on input lin
-e 50.
+e 56.
 
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-LaTeX Warning: Citation `study' on page 6 undefined on input line 50.
+LaTeX Warning: Citation `study' on page 6 undefined on input line 56.
 
 
-LaTeX Warning: Citation `laboratorium' on page 6 undefined on input line 50.
+LaTeX Warning: Citation `laboratorium' on page 6 undefined on input line 56.
 
 
-LaTeX Warning: Citation `leeper' on page 6 undefined on input line 51.
+LaTeX Warning: Citation `leeper' on page 6 undefined on input line 57.
 
 
-LaTeX Warning: Citation `forbes' on page 6 undefined on input line 51.
+LaTeX Warning: Citation `forbes' on page 6 undefined on input line 57.
 
 
-LaTeX Warning: Citation `atlantic' on page 6 undefined on input line 51.
+LaTeX Warning: Citation `atlantic' on page 6 undefined on input line 57.
 
 
-LaTeX Warning: Citation `forbes' on page 6 undefined on input line 51.
+LaTeX Warning: Citation `forbes' on page 6 undefined on input line 57.
 
 
-LaTeX Warning: Citation `leeper' on page 6 undefined on input line 51.
+LaTeX Warning: Citation `leeper' on page 6 undefined on input line 57.
 
 
-LaTeX Warning: Citation `slate' on page 6 undefined on input line 51.
+LaTeX Warning: Citation `slate' on page 6 undefined on input line 57.
 
-)) [6] (./main.bbl
+)) [6] [7
+
+] (./main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 A key un-der the door-mat isn't safe. nei-ther is an en-cryp-
 tion back-door.
@@ -392,30 +406,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--7
 wp / 2015 / 12 / 15 /
  []
 
-) [7
+) [8
 
-] (./main.aux)
+]
+
+! Package csquotes Error: Unbalanced groups or invalid nesting.
+
+See the csquotes package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \end{document}
+                   
+? 
+
+### semi simple group (level 1) entered at line 60 (\begingroup)
+### bottom level
+
+! OK.
+\csq@err@gleft ...the transcript file}\showgroups 
+                                                  
+l.55 \end{document}
+                   
+? 
+(./main.aux)
 
 LaTeX Warning: There were undefined references.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 60 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 2565 strings out of 492995
- 34848 string characters out of 6132704
- 122895 words of memory out of 5000000
- 6101 multiletter control sequences out of 15000+600000
+ 2571 strings out of 492995
+ 34948 string characters out of 6132704
+ 123895 words of memory out of 5000000
+ 6107 multiletter control sequences out of 15000+600000
  8817 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,4n,32p,1227b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (9 pages, 96758 bytes).
+ 25i,4n,32p,1226b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmtt12.pfb>
+Output written on main.pdf (10 pages, 97970 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

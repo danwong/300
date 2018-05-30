@@ -37,9 +37,10 @@ Warning--I didn't find a database entry for "Manhattanda"
 Warning--I didn't find a database entry for "washington-blaze"
 Warning--I didn't find a database entry for "define-safe"
 Warning--I didn't find a database entry for "define-safe2"
+Warning--I didn't find a database entry for "define-software-risk"
 Warning--I didn't find a database entry for "define-privacy"
-Warning--I didn't find a database entry for "define-diminish"
 Warning--I didn't find a database entry for "define-disclose"
+Warning--I didn't find a database entry for "define-diminish"
 Warning--I didn't find a database entry for "irb-informed-consent"
 Warning--I didn't find a database entry for "define-danger"
 Warning--I didn't find a database entry for "define-harm"
@@ -56,7 +57,7 @@ Warning--I didn't find a database entry for "slate"
 Warning--to sort, need author or key in WashingtonBlaze
 You've used 3 entries,
             2253 wiz_defined-function locations,
-            582 strings with 5135 characters,
+            583 strings with 5155 characters,
 and the built_in function-call counts, 633 in all, are:
 = -- 59
 > -- 15
