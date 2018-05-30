@@ -29,6 +29,9 @@ https://www.merriam-webster.com/dictionary/safe
 {define-diminish}
 https://en.oxforddictionaries.com/definition/diminish
 
+{define-software-risk}
+https://www.castsoftware.com/research-labs/software-risk
+
 Tenet 3.14 Maintain the integrity of data, being sensitive to outdated or flawed occurrences.
 
 TENET 6.06 Obey all laws governing their work, unless, in exception circumstances, such compliance is inconsistent with the public interest.
