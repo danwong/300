@@ -20,6 +20,15 @@ https://economictimes.indiatimes.com/definition/software-maintenance
 
 https://docs.house.gov/meetings/IF/IF02/20160419/104812/HHRG-114-IF02-Wstate-BlazeM-20160419-U3.pdfi
 
+{define-privacy}
+http://www.dictionary.com/browse/privacy?s=t
+
+{define-safe}
+https://www.merriam-webster.com/dictionary/safe
+
+{define-diminish}
+https://en.oxforddictionaries.com/definition/diminish
+
 Tenet 3.14 Maintain the integrity of data, being sensitive to outdated or flawed occurrences.
 
 TENET 6.06 Obey all laws governing their work, unless, in exception circumstances, such compliance is inconsistent with the public interest.
